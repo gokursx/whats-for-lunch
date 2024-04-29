@@ -26,6 +26,8 @@ const whatToDoForLunch = function(hungry, availableTime) {
   else if (hungry == true && availableTime > 30){
   console.log("this is an intense program after all and you should probably reconsider.");
   }
+  console.log("hungry is", hungry);
+  console.log("availableTime is", availableTime);
   
 }
 
